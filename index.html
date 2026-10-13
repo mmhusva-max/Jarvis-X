@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050810">
+  <meta name="description" content="JARVIS DIGITAL SERVICES - خدمات رقمية وتصميم مواقع وتطبيقات">
+  <title>JARVIS | DIGITAL SERVICES</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a class="logo" href="#home">
+      <span class="logo-icon">J</span>
+      <span>JARVIS<span class="blue">.</span>
+        <small>DIGITAL SERVICES</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="فتح القائمة" aria-expanded="false">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#home">الرئيسية</a>
+      <a href="#services">خدماتنا</a>
+      <a href="#about">من نحن</a>
+      <a href="#contact" class="nav-contact">تواصل معنا ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="status">
+          <span class="status-dot"></span>
+          حلول رقمية بطموح المستقبل
+        </div>
+
+        <h1>
+          نصنع لك<br>
+          <span class="gradient">مستقبلك الرقمي</span>
+        </h1>
+
+        <p class="hero-text">
+          نطوّر أفكارك ونحوّلها إلى تجارب رقمية عصرية،
+          من تصميم المواقع والتطبيقات إلى خدمات الحسابات والترويج.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#services" class="btn primary">اكتشف خدماتنا ↙</a>
+          <a href="#contact" class="btn secondary">اطلب خدمتك</a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>01</strong><span>إبداع رقمي</span></div>
+          <div><strong>02</strong><span>حلول عصرية</span></div>
+          <div><strong>03</strong><span>اهتمام بالتفاصيل</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="core">
+          <div class="core-inner">J<span>.</span></div>
+          <div class="core-label">JARVIS AI</div>
+        </div>
+        <div class="float-card card-top">✦ DIGITAL INNOVATION</div>
+        <div class="float-card card-bottom">SYSTEM ONLINE <span>●</span></div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-heading">
+        <span class="eyebrow">WHAT WE DO</span>
+        <h2>خدمات <span class="blue">بمستوى مختلف</span></h2>
+        <p>اختَر الخدمة المناسبة لفكرتك ودع الباقي علينا.</p>
+      </div>
+
+<div class="service-grid">
+
+  <article class="service-card">
+    <div class="service-image">
+      <img src="images/web.jpg" alt="تصميم مواقع ويب">
+      <span class="service-number">01 / WEB</span>
+    </div>
+    <div class="service-info">
+      <h3>تصميم مواقع ويب</h3>
+      <p>مواقع عصرية ومتجاوبة بتصميم احترافي يناسب مشروعك وهويتك.</p>
+      <button class="service-link" type="button"
+        onclick="showInstagram(this)" data-service="تصميم مواقع ويب">
+        اطلب الخدمة <span>↗</span>
+      </button>
+    </div>
+  </article>
+
+  <article class="service-card">
+    <div class="service-image">
+      <img src="images/app.jpg" alt="تصميم تطبيقات">
+      <span class="service-number">02 / APP</span>
+    </div>
+    <div class="service-info">
+      <h3>تصميم تطبيقات</h3>
+      <p>واجهات تطبيقات حديثة وتجربة استخدام بسيطة وجذابة.</p>
+      <button class="service-link" type="button"
+        onclick="showInstagram(this)" data-service="تصميم تطبيقات">
+        اطلب الخدمة <span>↗</span>
+      </button>
+    </div>
+  </article>
+
+  <article class="service-card">
+    <div class="service-image">
+      <img src="images/verify.jpg" alt="طلبات التوثيق">
+      <span class="service-number">03 / VERIFY</span>
+    </div>
+    <div class="service-info">
+      <h3>طلبات التوثيق</h3>
+      <p>مساعدة في تجهيز طلبات التوثيق عبر الإجراءات الرسمية.</p>
+      <button class="service-link" type="button"
+        onclick="showInstagram(this)" data-service="طلبات التوثيق">
+        اطلب الخدمة <span>↗</span>
+      </button>
+    </div>
+  </article>
+
+  <article class="service-card">
+    <div class="service-image">
+      <img src="images/growth.jpg" alt="نمو الحسابات">
+      <span class="service-number">04 / GROWTH</span>
+    </div>
+    <div class="service-info">
+      <h3>نمو الحسابات</h3>
+      <p>أفكار ترويجية لتحسين حضور حسابك وزيادة الوصول بطرق مناسبة.</p>
+      <button class="service-link" type="button"
+        onclick="showInstagram(this)" data-service="نمو الحسابات والترويج">
+        اطلب الخدمة <span>↗</span>
+      </button>
+    </div>
+  </article>
+<script src="script.js"></script>
+</body>
+</html>
+</div>
